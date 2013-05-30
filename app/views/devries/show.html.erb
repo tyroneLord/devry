@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @devry.name %>
+</p>
+
+<p>
+  <b>Major:</b>
+  <%= @devry.major %>
+</p>
+
+<p>
+  <b>Age:</b>
+  <%= @devry.age %>
+</p>
+
+
+<%= link_to 'Edit', edit_devry_path(@devry) %> |
+<%= link_to 'Back', devries_path %>
